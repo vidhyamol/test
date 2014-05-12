@@ -67,6 +67,7 @@ class LogWork(EmployeeWorkLog):
 		
 	
 	def printSummary(self,name):
+		'''calculating total time spend for each project '''
 		sum=0.0
 		print 'employeename:' ,name
 		k=LogWork.time_dict.keys()
