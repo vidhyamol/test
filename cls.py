@@ -1,5 +1,8 @@
 import datetime
 import time
+
+'''Implement a class that keeps records of hours employees have worked on various projects in office.'''
+
 class EmployeeWorkLog(object):
 	emp_dict={}
 	emp_list=[]
